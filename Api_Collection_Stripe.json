@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Stripe",
+    "collectionId": "a809f9f3-dcdf-4057-b9ba-5598d7709243",
+    "dateExported": "2024-09-27T20:46:51.112Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c68d1c8d-533c-48f8-8f98-38569fb0b0b4",
+            "colId": "a809f9f3-dcdf-4057-b9ba-5598d7709243",
+            "containerId": "",
+            "name": "CreatePaymentDetails",
+            "url": "localhost:8003/API/payment/create",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-27T19:21:51.159Z",
+            "modified": "2024-09-27T20:19:47.943Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"amount\": \"500\",\n  \"currency\": \"usd\",\n  \"source\": \"pm_card_visa\",\n  \"description\": \"Test payment\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fc247ca8-2fb3-4d36-848c-29247fcc3108",
+            "colId": "a809f9f3-dcdf-4057-b9ba-5598d7709243",
+            "containerId": "",
+            "name": "getPaymentDetails",
+            "url": "localhost:8003/API/payment/pi_3Q3kRiDSWjqHvqMa1kkmvuvj",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-27T20:11:26.551Z",
+            "modified": "2024-09-27T20:16:06.719Z",
+            "headers": []
+        }
+    ],
+    "ref": "VauYwJYSIt0bFkDi5DzQPO3JzwFF8BUY9ywCtezhYD3BGXwQTG9Yf8t4xe-qaiXtMcfp-hqdEaZLMRJ3ioyErw"
+}
